@@ -1,1 +1,3 @@
 # WordPress-Install-on-Linux
+
+The provided bash script automates the installation and configuration of a WordPress site on an Ubuntu server. It updates package lists, installs Apache, MySQL, PHP, and required PHP modules, and disables the default Apache virtual host. The script then downloads WordPress, sets up directory permissions, and creates a custom Apache virtual host for WordPress. It prompts for MySQL database credentials, creates the database and user, and configures WordPress with these details. Finally, the script installs Certbot for SSL, requests an SSL certificate, and cleans up temporary files, completing the WordPress installation.
